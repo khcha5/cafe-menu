@@ -30,7 +30,8 @@ def show_tea_menu():
     tea_items = {
         "Green Tea": 2.00,
         "Chai Latte": 3.00,
-        "Herbal Tea": 2.50
+        "Herbal Tea": 2.50,
+        "milk"       :4
     }
     for item, price in tea_items.items():
         print(f"{item}: ${price:.2f}")
